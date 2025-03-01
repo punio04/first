@@ -98,7 +98,7 @@ section.search_about2 {
 }
 
 .search_about2 .inner.bgimg {
-  background-image: url(img/_J0A5894.JPG);
+  background-image: url(img/_J0A5894.jpg);
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: contain;
@@ -259,7 +259,7 @@ a {
 
 @media screen and (max-width: 768px) {
   .search_about2 .inner.bgimg {
-    background-image: url(img/_J0A5894_sp.JPG);
+    background-image: url(img/_J0A5894_sp.jpg);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: contain;
