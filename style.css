@@ -257,6 +257,10 @@ a {
   padding-bottom: 90px;
 }
 
+.thread_lead a {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
   .search_about2 .inner.bgimg {
     background-image: url(img/bg_greeting_sp.jpg);
