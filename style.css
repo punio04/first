@@ -350,12 +350,9 @@ a {
     margin: 15px auto 0;
   }
 
-
   .downtime_media {
     padding-bottom: 30px;
   }
-
-
 
   .counseling p {
     font-size: 4.2vw;
@@ -444,6 +441,18 @@ a {
 
 
 @media screen and (max-width: 450px) {
+  .counseling a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px auto 0px;
+  }
+
   .logo_img {
     width: 40%;
     background-color: #fff;
@@ -452,21 +461,45 @@ a {
   }
 
   .sec_title .title_line {
-    font-size: 30px;
-    margin: 40px 10px 20px;
+    font-size: 29px;
+    margin: 40px 0px 20px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .sec_title .title_line {
     font-size: 27px;
-    margin: 40px 10px 20px;
+    margin: 40px 0px 20px;
+  }
+
+  .counseling a {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px auto 0px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .sec_title .title_line {
     font-size: 23px;
-    margin: 40px 10px 20px;
+    margin: 40px 0px 20px;
+  }
+
+  .counseling a {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px auto 0px;
   }
 }
